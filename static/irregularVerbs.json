@@ -1,0 +1,626 @@
+[
+  {
+    "infinitive": "be",
+    "translation": "a fi",
+    "pastSimple": "was/were",
+    "pastParticiple": "been"
+  },
+  {
+    "infinitive": "beat",
+    "translation": "a bate",
+    "pastSimple": "beat",
+    "pastParticiple": "beaten"
+  },
+  {
+    "infinitive": "become",
+    "translation": "a deveni",
+    "pastSimple": "became",
+    "pastParticiple": "become"
+  },
+  {
+    "infinitive": "begin",
+    "translation": "a începe",
+    "pastSimple": "began",
+    "pastParticiple": "begun"
+  },
+  {
+    "infinitive": "bend",
+    "translation": "a îndoi",
+    "pastSimple": "bent",
+    "pastParticiple": "bent"
+  },
+  {
+    "infinitive": "bite",
+    "translation": "a mușca",
+    "pastSimple": "bit",
+    "pastParticiple": "bitten"
+  },
+  {
+    "infinitive": "blow",
+    "translation": "a sufla",
+    "pastSimple": "blew",
+    "pastParticiple": "blown"
+  },
+  {
+    "infinitive": "break",
+    "translation": "a rupe",
+    "pastSimple": "broke",
+    "pastParticiple": "broken"
+  },
+  {
+    "infinitive": "bring",
+    "translation": "a aduce",
+    "pastSimple": "brought",
+    "pastParticiple": "brought"
+  },
+  {
+    "infinitive": "build",
+    "translation": "a construi",
+    "pastSimple": "built",
+    "pastParticiple": "built"
+  },
+  {
+    "infinitive": "burn",
+    "translation": "a arde",
+    "pastSimple": "burned/burnt",
+    "pastParticiple": "burned/burnt"
+  },
+  {
+    "infinitive": "burst",
+    "translation": "a izbucni",
+    "pastSimple": "burst",
+    "pastParticiple": "burst"
+  },
+  {
+    "infinitive": "buy",
+    "translation": "a cumpăra",
+    "pastSimple": "bought",
+    "pastParticiple": "bought"
+  },
+  {
+    "infinitive": "can",
+    "translation": "a putea",
+    "pastSimple": "could",
+    "pastParticiple": "been able"
+  },
+  {
+    "infinitive": "catch",
+    "translation": "a prinde/a captura",
+    "pastSimple": "caught",
+    "pastParticiple": "caught"
+  },
+  {
+    "infinitive": "choose",
+    "translation": "a alege",
+    "pastSimple": "chose",
+    "pastParticiple": "chosen"
+  },
+  {
+    "infinitive": "come",
+    "translation": "a veni",
+    "pastSimple": "came",
+    "pastParticiple": "came"
+  },
+  {
+    "infinitive": "cost",
+    "translation": "a costa",
+    "pastSimple": "cost",
+    "pastParticiple": "cost"
+  },
+  {
+    "infinitive": "cut",
+    "translation": "a tăia",
+    "pastSimple": "cut",
+    "pastParticiple": "cut"
+  },
+  {
+    "infinitive": "dig",
+    "translation": "a săpa",
+    "pastSimple": "dug",
+    "pastParticiple": "dug"
+  },
+  {
+    "infinitive": "do",
+    "translation": "a face",
+    "pastSimple": "did",
+    "pastParticiple": "done"
+  },
+  {
+    "infinitive": "draw",
+    "translation": "a desena",
+    "pastSimple": "drew",
+    "pastParticiple": "drawn"
+  },
+  {
+    "infinitive": "dream",
+    "translation": "a visa",
+    "pastSimple": "dreamed/dreamt",
+    "pastParticiple": "dreamed/dreamt"
+  },
+  {
+    "infinitive": "drink",
+    "translation": "a bea",
+    "pastSimple": "drank",
+    "pastParticiple": "drunk"
+  },
+  {
+    "infinitive": "drive",
+    "translation": "a conduce",
+    "pastSimple": "drove",
+    "pastParticiple": "driven"
+  },
+  {
+    "infinitive": "eat",
+    "translation": "a mânca",
+    "pastSimple": "ate",
+    "pastParticiple": "eaten"
+  },
+  {
+    "infinitive": "fall",
+    "translation": "a cădea",
+    "pastSimple": "fell",
+    "pastParticiple": "fallen"
+  },
+  {
+    "infinitive": "feed",
+    "translation": "a hrăni",
+    "pastSimple": "fed",
+    "pastParticiple": "fed"
+  },
+  {
+    "infinitive": "feel",
+    "translation": "a simți",
+    "pastSimple": "felt",
+    "pastParticiple": "felt"
+  },
+  {
+    "infinitive": "fight",
+    "translation": "a lupta",
+    "pastSimple": "fought",
+    "pastParticiple": "fought"
+  },
+  {
+    "infinitive": "find",
+    "translation": "a găsi",
+    "pastSimple": "found",
+    "pastParticiple": "found"
+  },
+  {
+    "infinitive": "fly",
+    "translation": "a zbura",
+    "pastSimple": "flew",
+    "pastParticiple": "flown"
+  },
+  {
+    "infinitive": "forget",
+    "translation": "a uita",
+    "pastSimple": "forgot",
+    "pastParticiple": "forgotten"
+  },
+  {
+    "infinitive": "forgive",
+    "translation": "a ierta",
+    "pastSimple": "forgave",
+    "pastParticiple": "forgiven"
+  },
+  {
+    "infinitive": "freeze",
+    "translation": "a îngheța",
+    "pastSimple": "froze",
+    "pastParticiple": "frozen"
+  },
+  {
+    "infinitive": "get",
+    "translation": "a obține",
+    "pastSimple": "got",
+    "pastParticiple": "got"
+  },
+  {
+    "infinitive": "give",
+    "translation": "a da/a oferi",
+    "pastSimple": "gave",
+    "pastParticiple": "given"
+  },
+  {
+    "infinitive": "go",
+    "translation": "a merge",
+    "pastSimple": "went",
+    "pastParticiple": "gone/been"
+  },
+  {
+    "infinitive": "grow",
+    "translation": "a crește",
+    "pastSimple": "grew",
+    "pastParticiple": "grown"
+  },
+  {
+    "infinitive": "hang",
+    "translation": "a atârna",
+    "pastSimple": "hanged/hung",
+    "pastParticiple": "hanged/hung"
+  },
+  {
+    "infinitive": "have",
+    "translation": "a avea",
+    "pastSimple": "had",
+    "pastParticiple": "had"
+  },
+  {
+    "infinitive": "hear",
+    "translation": "a auzi",
+    "pastSimple": "heard",
+    "pastParticiple": "heard"
+  },
+  {
+    "infinitive": "hide",
+    "translation": "a ascunde",
+    "pastSimple": "hid",
+    "pastParticiple": "hidden"
+  },
+  {
+    "infinitive": "hit",
+    "translation": "a lovi",
+    "pastSimple": "hit",
+    "pastParticiple": "hit"
+  },
+  {
+    "infinitive": "hold",
+    "translation": "a ține",
+    "pastSimple": "held",
+    "pastParticiple": "held"
+  },
+  {
+    "infinitive": "hurt",
+    "translation": "a răni/a durea",
+    "pastSimple": "hurt",
+    "pastParticiple": "hurt"
+  },
+  {
+    "infinitive": "keep",
+    "translation": "a păstra",
+    "pastSimple": "kept",
+    "pastParticiple": "kept"
+  },
+  {
+    "infinitive": "kneel",
+    "translation": "a îngenunchia",
+    "pastSimple": "knelt",
+    "pastParticiple": "knelt"
+  },
+  {
+    "infinitive": "know",
+    "translation": "a ști",
+    "pastSimple": "knew",
+    "pastParticiple": "known"
+  },
+  {
+    "infinitive": "lay",
+    "translation": "a așeza",
+    "pastSimple": "laid",
+    "pastParticiple": "laid"
+  },
+  {
+    "infinitive": "lead",
+    "translation": "a conduce",
+    "pastSimple": "led",
+    "pastParticiple": "led"
+  },
+  {
+    "infinitive": "learn",
+    "translation": "a învăța",
+    "pastSimple": "learned/learnt",
+    "pastParticiple": "learned/learnt"
+  },
+  {
+    "infinitive": "leave",
+    "translation": "a pleca/a părăsi",
+    "pastSimple": "left",
+    "pastParticiple": "left"
+  },
+  {
+    "infinitive": "lend",
+    "translation": "a împrumuta",
+    "pastSimple": "lent",
+    "pastParticiple": "lent"
+  },
+  {
+    "infinitive": "let",
+    "translation": "a lăsa",
+    "pastSimple": "let",
+    "pastParticiple": "let"
+  },
+  {
+    "infinitive": "lie",
+    "translation": "a minți",
+    "pastSimple": "lay",
+    "pastParticiple": "lain"
+  },
+  {
+    "infinitive": "light",
+    "translation": "a lumina",
+    "pastSimple": "lit",
+    "pastParticiple": "lit"
+  },
+  {
+    "infinitive": "lose",
+    "translation": "a pierde",
+    "pastSimple": "lost",
+    "pastParticiple": "lost"
+  },
+  {
+    "infinitive": "make",
+    "translation": "a face",
+    "pastSimple": "made",
+    "pastParticiple": "made"
+  },
+  {
+    "infinitive": "mean",
+    "translation": "a însemna",
+    "pastSimple": "meant",
+    "pastParticiple": "meant"
+  },
+  {
+    "infinitive": "meet",
+    "translation": "a înlâlni",
+    "pastSimple": "met",
+    "pastParticiple": "met"
+  },
+  {
+    "infinitive": "must",
+    "translation": "a trebui",
+    "pastSimple": "had to",
+    "pastParticiple": "had to"
+  },
+  {
+    "infinitive": "pay",
+    "translation": "a plăti",
+    "pastSimple": "paid",
+    "pastParticiple": "paid"
+  },
+  {
+    "infinitive": "put",
+    "translation": "a pune",
+    "pastSimple": "put",
+    "pastParticiple": "put"
+  },
+  {
+    "infinitive": "read",
+    "translation": "a citi",
+    "pastSimple": "read",
+    "pastParticiple": "read"
+  },
+  {
+    "infinitive": "ride",
+    "translation": "a călări",
+    "pastSimple": "rode",
+    "pastParticiple": "ridden"
+  },
+  {
+    "infinitive": "ring",
+    "translation": "a suna",
+    "pastSimple": "rang",
+    "pastParticiple": "rung"
+  },
+  {
+    "infinitive": "rise",
+    "translation": "a crește/a ridica",
+    "pastSimple": "rose",
+    "pastParticiple": "risen"
+  },
+  {
+    "infinitive": "run",
+    "translation": "a alerga",
+    "pastSimple": "ran",
+    "pastParticiple": "run"
+  },
+  {
+    "infinitive": "say",
+    "translation": "a zice/a spune",
+    "pastSimple": "said",
+    "pastParticiple": "said"
+  },
+  {
+    "infinitive": "see",
+    "translation": "a vedea",
+    "pastSimple": "saw",
+    "pastParticiple": "seen"
+  },
+  {
+    "infinitive": "sell",
+    "translation": "a vinde",
+    "pastSimple": "sold",
+    "pastParticiple": "sold"
+  },
+  {
+    "infinitive": "send",
+    "translation": "a trimite/a expedia",
+    "pastSimple": "sent",
+    "pastParticiple": "sent"
+  },
+  {
+    "infinitive": "set",
+    "translation": "a stabili",
+    "pastSimple": "set",
+    "pastParticiple": "set"
+  },
+  {
+    "infinitive": "shake",
+    "translation": "a scutura/a agita",
+    "pastSimple": "shook",
+    "pastParticiple": "shaken"
+  },
+  {
+    "infinitive": "shine",
+    "translation": "a străluci",
+    "pastSimple": "shone",
+    "pastParticiple": "shone"
+  },
+  {
+    "infinitive": "shoot",
+    "translation": "a împușca/a trage",
+    "pastSimple": "shot",
+    "pastParticiple": "shot"
+  },
+  {
+    "infinitive": "show",
+    "translation": "a arăta",
+    "pastSimple": "showen",
+    "pastParticiple": "shown"
+  },
+  {
+    "infinitive": "shut",
+    "translation": "a închide",
+    "pastSimple": "shut",
+    "pastParticiple": "shut"
+  },
+  {
+    "infinitive": "sing",
+    "translation": "a cânta",
+    "pastSimple": "sang",
+    "pastParticiple": "sung"
+  },
+  {
+    "infinitive": "sink",
+    "translation": "a scufunda",
+    "pastSimple": "sank",
+    "pastParticiple": "sunk"
+  },
+  {
+    "infinitive": "sit",
+    "translation": "a sta",
+    "pastSimple": "sat",
+    "pastParticiple": "sat"
+  },
+  {
+    "infinitive": "sleep",
+    "translation": "a dormi",
+    "pastSimple": "slept",
+    "pastParticiple": "slept"
+  },
+  {
+    "infinitive": "slide",
+    "translation": "a aluneca/a luneca",
+    "pastSimple": "slid",
+    "pastParticiple": "slid"
+  },
+  {
+    "infinitive": "smell",
+    "translation": "a mirosi",
+    "pastSimple": "smelled/smelt",
+    "pastParticiple": "smelled/smelt"
+  },
+  {
+    "infinitive": "speak",
+    "translation": "a vorbi",
+    "pastSimple": "spoke",
+    "pastParticiple": "spoken"
+  },
+  {
+    "infinitive": "spend",
+    "translation": "a cheltui",
+    "pastSimple": "spent",
+    "pastParticiple": "spent"
+  },
+  {
+    "infinitive": "spill",
+    "translation": "a vărsa/a împrăștia",
+    "pastSimple": "spilled/spilt",
+    "pastParticiple": "spilled/spilt"
+  },
+  {
+    "infinitive": "spoil",
+    "translation": "a strica/a alinta",
+    "pastSimple": "spoiled/spoilt",
+    "pastParticiple": "spoiled/spoilt"
+  },
+  {
+    "infinitive": "stand",
+    "translation": "a sta",
+    "pastSimple": "stood",
+    "pastParticiple": "stood"
+  },
+  {
+    "infinitive": "steal",
+    "translation": "a fura/a răpi",
+    "pastSimple": "stole",
+    "pastParticiple": "stolen"
+  },
+  {
+    "infinitive": "stick",
+    "translation": "a lipi",
+    "pastSimple": "stuck",
+    "pastParticiple": "stuck"
+  },
+  {
+    "infinitive": "swim",
+    "translation": "a înota",
+    "pastSimple": "swam",
+    "pastParticiple": "swam"
+  },
+  {
+    "infinitive": "take",
+    "translation": "a lua",
+    "pastSimple": "took",
+    "pastParticiple": "taken"
+  },
+  {
+    "infinitive": "teach",
+    "translation": "a învăța",
+    "pastSimple": "thought",
+    "pastParticiple": "thought"
+  },
+  {
+    "infinitive": "tear",
+    "translation": "a sfâșia/a rupe",
+    "pastSimple": "tore",
+    "pastParticiple": "torn"
+  },
+  {
+    "infinitive": "tell",
+    "translation": "a spune",
+    "pastSimple": "told",
+    "pastParticiple": "told"
+  },
+  {
+    "infinitive": "think",
+    "translation": "a gândi",
+    "pastSimple": "thought",
+    "pastParticiple": "thought"
+  },
+  {
+    "infinitive": "throw",
+    "translation": "a arunca",
+    "pastSimple": "threw",
+    "pastParticiple": "thrown"
+  },
+  {
+    "infinitive": "understand",
+    "translation": "a înțelege",
+    "pastSimple": "understood",
+    "pastParticiple": "understood"
+  },
+  {
+    "infinitive": "wake",
+    "translation": "a trezi",
+    "pastSimple": "woke",
+    "pastParticiple": "woken"
+  },
+  {
+    "infinitive": "wear",
+    "translation": "a purta",
+    "pastSimple": "wore",
+    "pastParticiple": "worn"
+  },
+  {
+    "infinitive": "win",
+    "translation": "a câștiga",
+    "pastSimple": "won",
+    "pastParticiple": "won"
+  },
+  {
+    "infinitive": "write",
+    "translation": "a scrie",
+    "pastSimple": "wrote",
+    "pastParticiple": "written"
+  }
+]
