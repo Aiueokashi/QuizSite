@@ -1,10 +1,10 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="10" md="8" lg="6" xl="5">
-      <div id="chemViewer" style="width:100px;height:60px"
+      <div id="chemViewer" style="width:100%;height:300px"
 		  data-widget="Kekule.ChemWidget.Viewer2D" data-enable-toolbar="true" data-auto-size="false" data-padding="20"
 		  data-toolbar-evoke-modes="[0]"
-		  data-chem-obj="url(#)"></div>
+		  data-chem-obj="url(#サリチル酸)"></div>
     </v-col>
   </v-row>
 </template>
