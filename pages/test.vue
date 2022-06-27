@@ -7,11 +7,13 @@
 </template>
 
 <script>
-import * as THREE from 'three';
-import * as Raphael from 'raphael';
-import {Kekule} from 'kekule';
-Kekule.externalResourceManager.register('three.js', THREE);
-Kekule.externalResourceManager.register('Raphael.js', Raphael);
+if (process.browser) {
+  const THREE = require('three');  
+  const Raphael = require('raphael');
+  var {Kekule} = require('kekule');
+  Kekule.externalResourceManager.register('three.js', THREE);
+  Kekule.externalResourceManager.register('Raphael.js', Raphael);
+}
   
 export default {
   name: 'TestPage',
