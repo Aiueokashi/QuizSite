@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import VerbsTableComponent from '../components/VerbsTableComponent'
+import VerbsTableComponent from '../components/Chemistrytable'
 export default {
   name: 'IndexPage',
 
