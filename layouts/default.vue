@@ -42,8 +42,16 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Irregular verbs',
+          title: '最初のページ',
           to: '/',
+        },{
+          icon: 'mdi-table-of-contents',
+          title:'芳香族化合物',
+          to: '/list/aroma',
+        },{
+          icon: 'mdi-table-question',
+          title: '芳香族化合物',
+          to: '/question/aroma',
         },
         {
           icon: 'mdi-lightbulb-on',
@@ -54,11 +62,6 @@ export default {
           icon: 'mdi-lightbulb-on-outline',
           title: 'Past participle quiz',
           to: '/quiz/2',
-        },
-        {
-          icon: 'mdi-translate',
-          title: 'Translate (RO -> EN)',
-          to: '/quiz/3',
         },
       ],
       title: 'Vuetify.js',
