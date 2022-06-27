@@ -19,7 +19,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-           { rel: 'stylesheet', type: 'text/css', href: 'kekule/themes/default/kekule.css'}],
+           { rel: 'stylesheet', type: 'text/css', href: 'kekule/themes/default/kekule.css'},
+           { id: 'Benzene', type: 'chemical/x-mdl-molfile', href: 'chemData/benzene.mol'}],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
