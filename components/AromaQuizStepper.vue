@@ -15,11 +15,11 @@
     <v-stepper-items>
       <v-stepper-content step="1">
         <div v-if="step === 1">
-          <h1>Welcome to {{ quizName }} Quiz!</h1>
+          <h1>{{ quizName }}</h1>
           <v-select
             v-model.trim="numberOfQuestions"
             :items="[5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 'All']"
-            label="Select number of questions"
+            label="設問数を指定してください"
           ></v-select>
           <v-switch v-model="shuffleMode" label="Random mode"></v-switch>
           <v-btn
