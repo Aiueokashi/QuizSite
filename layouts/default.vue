@@ -42,8 +42,12 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Irregular verbs',
+          title: 'List',
           to: '/',
+        },{
+          icon: 'mdi-scent',
+          title:'Aromatic Compounds List',
+          to: '/list/1',
         },
         {
           icon: 'mdi-lightbulb-on',
