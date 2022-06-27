@@ -47,7 +47,6 @@ export default {
           value: 'name',
         },
         { text: '化学式', value: 'formula' },
-        { text: '別名', value: 'alias' },
         { text: '画像', value: 'img' },
       ],
       items: aromaticCompounds,
