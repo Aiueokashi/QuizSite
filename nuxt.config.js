@@ -5,9 +5,9 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s',
-    title: 'english-quiz-nuxt',
+    title: 'クイズ用サイト',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
