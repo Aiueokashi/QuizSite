@@ -17,12 +17,13 @@
         class="elevation-1"
       ><template v-slot:item.img="{ item }" >
          <v-img :src="item.img" 
-                :aspect-ratop="16/9" 
+                :aspect-ratio="16/9" 
                 height="9vw" 
                 min-height="100px"
                 width="16vw" 
                 min-width="160px" 
                 class="ma-0 pa-0"
+                contain=true
         ></v-img>
     </template>
       </v-data-table>
