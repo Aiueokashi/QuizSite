@@ -20,7 +20,7 @@ export default {
         { id: 'サリチル酸', type: 'chemical/x-mdl-molfile', href: 'chemData/2D/サリチル酸.mol'}
       ]
     }
-  }
+  },
   mounted() {
     var resId = 'url(#サリチル酸)';
       Kekule.IO.loadResourceData(resId, function(mol, success)
