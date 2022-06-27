@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import ChemistryTableComponent from '../components/ChemistryTable'
+import ChemistryTableComponent from '../../components/ChemistryTable'
 export default {
   components: {
     ChemistryTableComponent,
