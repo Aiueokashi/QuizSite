@@ -6,6 +6,9 @@ export default {
   head: {
     titleTemplate: '%s',
     title: 'クイズ用サイト',
+    script: [
+      { hid: 'kekule', src: 'kekule/kekule.min.js', defer: true }
+    ],
     htmlAttrs: {
       lang: 'ja',
     },
@@ -15,7 +18,8 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+           { rel: 'stylesheet', type: 'text/css', href: 'kekule/themes/default/kekule.css'}],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
