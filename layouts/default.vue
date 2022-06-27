@@ -49,7 +49,7 @@ export default {
           title:'芳香族化合物',
           to: '/list/aroma',
         },{
-          icon: 'mdi-table-question',
+          icon: 'mdi-crosshairs-question',
           title: '芳香族化合物',
           to: '/question/aroma',
         },
