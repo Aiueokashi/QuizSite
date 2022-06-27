@@ -16,11 +16,11 @@ if (process.browser) {
       {
         if (success)
         {
-          console.log('Loading from ' + resId + ' Successful');
+          alert('Loading from ' + resId + ' Successful');
         }
         else
         {
-          console.log('Loading from ' + resId + ' Failed');
+          alert('Loading from ' + resId + ' Failed');
         }
       });
 }
