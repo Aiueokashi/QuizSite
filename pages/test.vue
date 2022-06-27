@@ -4,14 +4,14 @@
       <div id="chemViewer" style="width:100%;height:300px"
 		  data-widget="Kekule.ChemWidget.Viewer2D" data-enable-toolbar="true" data-auto-size="false" data-padding="20"
 		  data-toolbar-evoke-modes="[0]"
-		  data-chem-obj="url(#サリチル酸)"></div>
+		  data-chem-obj="url(#Benzene)"></div>
     </v-col>
   </v-row>
 </template>
 
 <script>
 if (process.browser) {
-    var resId = 'url(#サリチル酸)';
+    var resId = 'url(#Benzene)';
       Kekule.IO.loadResourceData(resId, function(mol, success)
       {
         if (success)
@@ -30,7 +30,7 @@ export default {
   head () {
     return {
       link: [
-        { id: 'サリチル酸', type: 'chemical/x-mdl-molfile', href: '../chemData/2D/サリチル酸.mol'}
+        { id: 'Benzene', type: 'chemical/x-mdl-molfile', href: '../chemData/2D/benzene.mol'}
       ]
     }
   },
