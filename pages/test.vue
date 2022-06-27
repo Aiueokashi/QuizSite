@@ -1,39 +1,19 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="10" md="8" lg="6" xl="5">
-      <div id="chemViewer" style="width:100%;height:300px"
-		  data-widget="Kekule.ChemWidget.Viewer2D" data-enable-toolbar="true" data-auto-size="false" data-padding="20"
-		  data-toolbar-evoke-modes="[0]"
-		  data-chem-obj="url(#Benzene)"></div>
+    <span id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
+      data-chem-obj="url(../chemFiles/benzene.mol)" data-predefined-setting="basic" data-auto-size="true"></span>
+     <span id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
+      data-chem-obj="url(../chemFiles/2D/サリチル酸.mol)" data-predefined-setting="basic" data-auto-size="true"></span>
     </v-col>
   </v-row>
 </template>
 
 <script>
-if (process.browser) {
-    var resId = 'url(#Benzene)';
-      Kekule.IO.loadResourceData(resId, function(mol, success)
-      {
-        if (success)
-        {
-          alert('Loading from ' + resId + ' Successful');
-        }
-        else
-        {
-          alert('Loading from ' + resId + ' Failed');
-        }
-      });
-}
+
 
 export default {
   name: "TestPage",
-  head () {
-    return {
-      link: [
-        { id: 'Benzene', type: 'chemical/x-mdl-molfile', href: '../chemData/2D/benzene.mol'}
-      ]
-    }
-  },
   mounted() {
   
     },
