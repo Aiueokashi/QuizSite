@@ -15,7 +15,17 @@
         :items-per-page="10"
         :footer-props="footerProps"
         class="elevation-1"
-      ></v-data-table>
+      ><template v-slot:item.img="{ item }" >
+         <v-img :src="item.imgl" 
+                :aspect-ratop="16/9" 
+                height="9vw" 
+                min-height="100px"
+                width="16vw" 
+                min-width="160px" 
+                class="ma-0 pa-0"
+        ></v-img>
+    </template>
+      </v-data-table>
     </v-card-title>
   </v-card>
 </template>
