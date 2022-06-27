@@ -16,7 +16,7 @@
         :footer-props="footerProps"
         class="elevation-1"
       ><template v-slot:item.img="{ item }" >
-         <v-img :src="item.imgl" 
+         <v-img :src="item.img" 
                 :aspect-ratop="16/9" 
                 height="9vw" 
                 min-height="100px"
