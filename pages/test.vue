@@ -10,18 +10,7 @@
 </template>
 
 <script>
-
-
-export default {
-  name: "TestPage",
-  head () {
-    return {
-      link: [
-        { id: 'サリチル酸', type: 'chemical/x-mdl-molfile', href: 'chemData/2D/サリチル酸.mol'}
-      ]
-    }
-  },
-  mounted() {
+if (process.browser) {
     var resId = 'url(#サリチル酸)';
       Kekule.IO.loadResourceData(resId, function(mol, success)
       {
@@ -34,6 +23,19 @@ export default {
           console.log('Loading from ' + resId + ' Failed');
         }
       });
+}
+
+export default {
+  name: "TestPage",
+  head () {
+    return {
+      link: [
+        { id: 'サリチル酸', type: 'chemical/x-mdl-molfile', href: 'chemData/2D/サリチル酸.mol'}
+      ]
+    }
+  },
+  mounted() {
+  
     },
 
   };
