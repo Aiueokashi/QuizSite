@@ -1,0 +1,10 @@
+[{
+  name:"ベンゼン",
+  formula:"C6H6",
+  img:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Benzene-2D-full.svg/1694px-Benzene-2D-full.svg.png",
+},{
+  name:"1,2-ジクロロベンゼン",
+  alias:"o-ジクロロベンゼン",
+  formula:"C6H4Cl2",
+  img:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/O-Dichlorobenzene-2D-skeletal.svg/1773px-O-Dichlorobenzene-2D-skeletal.svg.png",
+}]
