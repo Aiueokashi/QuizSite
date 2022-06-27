@@ -30,7 +30,7 @@ export default {
   head () {
     return {
       link: [
-        { id: 'サリチル酸', type: 'chemical/x-mdl-molfile', href: 'chemData/2D/サリチル酸.mol'}
+        { id: 'サリチル酸', type: 'chemical/x-mdl-molfile', href: '../chemData/2D/サリチル酸.mol'}
       ]
     }
   },
