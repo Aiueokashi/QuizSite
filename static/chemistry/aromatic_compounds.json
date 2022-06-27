@@ -1,11 +1,57 @@
 [{
   "name":"ベンゼン",
   "formula":"C6H6",
-  "alias":"なし",
   "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Benzene-2D-full.svg/1694px-Benzene-2D-full.svg.png"
 },{
-  "name":"1,2-ジクロロベンゼン",
-  "alias":"o-ジクロロベンゼン",
+  "name":"1,2-ジクロロベンゼン/o-ジクロロベンゼン",
   "formula":"C6H4Cl2",
   "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/O-Dichlorobenzene-2D-skeletal.svg/1773px-O-Dichlorobenzene-2D-skeletal.svg.png"
+},{
+  "name":"トルエン",
+  "formula":"C7H8",
+  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Toluene_acsv.svg/1263px-Toluene_acsv.svg.png"
+},{
+  "name":"エチルベンゼン",
+  "formula":"C8H10",
+  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ethylbenzene-2D-structure.svg/2560px-Ethylbenzene-2D-structure.svg.png"
+},{
+  "name":"o-キシレン/1,2-キシレン",
+  "formula":"C8H10",
+  "img":"https://health.joyplot.com/HealthWordsWiki/?plugin=attach&refer=o-%E3%82%AD%E3%82%B7%E3%83%AC%E3%83%B3&openfile=ortho-xylene.png"
+},{
+  "name":"クメン",
+  "formula":"C9H12",
+  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cumene-2D-skeletal.svg/1152px-Cumene-2D-skeletal.svg.png"
+},{
+  "name":"スチレン",
+  "formula":"C8H8",
+  "img":"https://www.jsia.jp/styrene-monomer/images/img_001.png"
+},{
+  "name":"ナフタレン",
+  "formula":"C10H8",
+  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Naphthalene_numbering.svg/2560px-Naphthalene_numbering.svg.png"
+},{
+  "name":"ヘプタン",
+  "formula":"C7H16",
+  "img":"https://upload.wikimedia.org/wikipedia/commons/1/15/HeptaneFull.png"
+},{
+  "name":"シクロヘキサン",
+  "formula":"C6H12",
+  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Cyclohexane-2D-skeletal.svg/1669px-Cyclohexane-2D-skeletal.svg.png"
+},{
+  "name":"ヘキサクロロシクロヘキサン/1,2,3,4,5,6-ヘキサクロロシクロヘキサン",
+  "formula":"C6H6Cl6",
+  "img":"https://kotobank.jp/image/dictionary/kagakujiten2/media/13-13-0684-01.jpg"
+},{
+  "name":"無水マレイン酸",
+  "formula":"C4H2O3",
+  "img":"https://kotobank.jp/image/dictionary/sekaidaihyakka/image/21402701.gif"
+},{
+  "name":"マレイン酸",
+  "formula":"C4H4O4",
+  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyvPefxJpMcYFjiVWJH4TfZ0XGDA6XoMGiw&usqp=CAU?.png"
+},{
+  "name":"無水フタル酸",
+  "formula":"C8H4O3",
+  "img":"https://kotobank.jp/image/dictionary/kagakujiten2/media/13-16-1003-01.jpg"
 }]
