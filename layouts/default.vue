@@ -52,7 +52,7 @@ export default {
           icon: 'mdi-crosshairs-question',
           title: '芳香族化合物',
           to: '/question/aroma',
-        },
+        },/*
         {
           icon: 'mdi-lightbulb-on',
           title: 'Past simple quiz',
@@ -62,7 +62,7 @@ export default {
           icon: 'mdi-lightbulb-on-outline',
           title: 'Past participle quiz',
           to: '/quiz/2',
-        },
+        },*/
       ],
       title: 'Vuetify.js',
     }
