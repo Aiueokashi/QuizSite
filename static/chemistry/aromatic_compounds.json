@@ -7,10 +7,6 @@
   "formula":"C6H4Cl2",
   "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/O-Dichlorobenzene-2D-skeletal.svg/1773px-O-Dichlorobenzene-2D-skeletal.svg.png"
 },{
-  "name":"トルエン",
-  "formula":"C7H8",
-  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Toluene_acsv.svg/1263px-Toluene_acsv.svg.png"
-},{
   "name":"エチルベンゼン",
   "formula":"C8H10",
   "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ethylbenzene-2D-structure.svg/2560px-Ethylbenzene-2D-structure.svg.png"
@@ -35,14 +31,6 @@
   "formula":"C7H16",
   "img":"https://upload.wikimedia.org/wikipedia/commons/1/15/HeptaneFull.png"
 },{
-  "name":"シクロヘキサン",
-  "formula":"C6H12",
-  "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Cyclohexane-2D-skeletal.svg/1669px-Cyclohexane-2D-skeletal.svg.png"
-},{
-  "name":"ヘキサクロロシクロヘキサン/1,2,3,4,5,6-ヘキサクロロシクロヘキサン",
-  "formula":"C6H6Cl6",
-  "img":"https://kotobank.jp/image/dictionary/kagakujiten2/media/13-13-0684-01.jpg"
-},{
   "name":"無水マレイン酸",
   "formula":"C4H2O3",
   "img":"https://kotobank.jp/image/dictionary/sekaidaihyakka/image/21402701.gif"
@@ -55,7 +43,19 @@
   "formula":"C8H4O3",
   "img":"https://kotobank.jp/image/dictionary/kagakujiten2/media/13-16-1003-01.jpg"
 },{
+  "name":"フタル酸",
+  "formula":"C8H6O4",
+  "img":"none"
+},{
   "name":"安息香酸",
   "formula":"C7H6O2",
   "img":"https://kotobank.jp/image/dictionary/sekaidaihyakka/image/20108801.gif"
+},{
+  "name":"ベンズアルデヒド",
+  "formula":"C7H6O",
+  "img":"none"
+},{
+  "name":"ベンジルアルコール",
+  "formula":"C7H8O",
+  "img":"none"
 }]

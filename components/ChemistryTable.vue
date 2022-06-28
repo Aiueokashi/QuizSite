@@ -15,16 +15,10 @@
         :items-per-page="10"
         :footer-props="footerProps"
         class="elevation-1"
-      ><template v-slot:item.img="{ item }" >
-         <v-img :src="item.img" 
-                :aspect-ratio="16/9" 
-                height="9vw" 
-                min-height="100px"
-                width="16vw" 
-                min-width="160px" 
-                class="ma-0 pa-0"
-                contain=true
-        ></v-img>
+      ><template v-slot:item.name="{ item }" >
+        <script :id="{ item }" type="chemical/x-mdl-molfile" :src="/chemData/2D/{ item }.mol"></script>
+       <span max-height="300px" max-width="300px" id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
+        :data-chem-obj="url(#{ item })" data-predefined-setting="basic" data-auto-size="true"></span>
     </template>
       </v-data-table>
     </v-card-title>
@@ -47,7 +41,7 @@ export default {
           value: 'name',
         },
         { text: '化学式', value: 'formula' },
-        { text: '画像', value: 'img' },
+        { text: '画像', value: 'name' },
       ],
       items: aromaticCompounds,
     }
