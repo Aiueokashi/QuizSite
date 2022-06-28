@@ -29,7 +29,7 @@ export default {
     },
     quizAllQuestions() {
       let verbs = null
-        verbs = aromatic.map(({ name, name }) => {
+        verbs = aromatic.map(({ name }) => {
           return {
             name,
             correctAnswer: name,
