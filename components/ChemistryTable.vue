@@ -18,7 +18,7 @@
       ><template v-slot:item.name="{ item }" >
         <script :id="item.name" type="chemical/x-mdl-molfile" :src="'/chemData/2D/' + item.name + '.mol'"></script>
        <span id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
-        :data-chem-obj="'url(#' + item.name + '})'" data-predefined-setting="basic" data-auto-size="true"></span>
+        :data-chem-obj="'url(#' + item.name + ')'" data-predefined-setting="basic" data-auto-size="true"></span>
     </template>
       </v-data-table>
     </v-card-title>
