@@ -1,8 +1,8 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="10" md="8" lg="6" xl="5">
-    <img src="static/v.png" />
-    <script id="chem2" type="chemical/x-mdl-molfile" src="../static/chemData/2D/benzenoanthracene.mol"></script>
+    <img src="/v.png" />
+    <script id="chem2" type="chemical/x-mdl-molfile" src="/chemData/2D/benzenoanthracene.mol"></script>
     <script id="chem1" type="chemical/x-mdl-molfile">
 tetraene.mol
   ChemDraw03051520032D
@@ -73,7 +73,7 @@ export default {
       return {
         script: [
         {
-          src: 'static/chemData/2D/benzenoanthracene.mol',
+          src: '/chemData/2D/benzenoanthracene.mol',
           body: false,
           defer: true,
           hid: 'benzene',
