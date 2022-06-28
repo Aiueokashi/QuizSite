@@ -16,9 +16,9 @@
         :footer-props="footerProps"
         class="elevation-1"
       ><template v-slot:item.img="{ item }" >
-        <script :id="item.name" type="chemical/x-mdl-molfile" :src="'/chemData/2D/' + item.name + '.mol'"></script>
+        <script :id="item.name.split('/')[0]" type="chemical/x-mdl-molfile" :src="'/chemData/2D/' + item.name.split('/')[0] + '.mol'"></script>
        <span id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
-        :data-chem-obj="'url(#' + item.name + ')'" data-predefined-setting="basic" data-auto-size="true"></span>
+        :data-chem-obj="'url(#' + item.name.split('/')[0] + ')'" data-predefined-setting="basic" data-auto-size="true"></span>
     </template>
       </v-data-table>
     </v-card-title>
