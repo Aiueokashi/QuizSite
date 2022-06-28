@@ -39,9 +39,10 @@ export default {
           text: '化合物名',
           align: 'start',
           value: 'name',
+          width: '30%'
         },
-        { text: '化学式', value: 'formula' },
-        { text: '構造式', value: 'img' },
+        { text: '化学式', value: 'formula', width: '20%' },
+        { text: '構造式', value: 'img', width: '50%' },
       ],
       items: aromaticCompounds,
     }

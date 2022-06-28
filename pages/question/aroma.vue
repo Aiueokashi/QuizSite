@@ -29,9 +29,9 @@ export default {
     },
     quizAllQuestions() {
       let verbs = null
-        verbs = aromatic.map(({ img, name }) => {
+        verbs = aromatic.map(({ name, name }) => {
           return {
-            img,
+            name,
             correctAnswer: name,
           }
         })
