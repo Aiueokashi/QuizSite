@@ -75,15 +75,9 @@
               </thead>
               <tbody>
                 <tr v-for="verb in quizQuestions" :key="verb.name">
-                  <td><v-img :src="verb.img" 
-                  :aspect-ratio="16/9" 
-                  height="9vw" 
-                  min-height="100px"
-                  width="16vw" 
-                  min-width="160px" 
-                  class="ma-0 pa-0"
-                  contain=true
-                  ></v-img></td>
+                  <td><script :id="verb.correctAnswer.split('/')[0]" type="chemical/x-mdl-molfile" :src="'/chemData/2D/' + verb.correctAnswer.name.split('/')[0] + '.mol'"></script>
+                      <span id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
+                      :data-chem-obj="'url(#' + verb.correctAnswer.name.split('/')[0] + ')'" data-predefined-setting="basic" data-auto-size="true"></span></td>
                   <td>{{ verb.correctAnswer }}</td>
                   <td :class="verb.isCorrect ? 'green--text' : 'red--text'">
                     {{ verb.yourAnswer }}
