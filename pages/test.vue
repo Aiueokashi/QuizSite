@@ -73,7 +73,7 @@ export default {
         script: [
         {
           src: 'static/chemData/2D/benzenoanthracene.mol',
-          body: true,
+          body: false,
           defer: true,
           hid: 'benzene',
           id: 'benzene',
