@@ -56,17 +56,7 @@ export default {
           icon: 'mdi-account-hard-hat',
           title:'テスト',
           to: '/test'
-        }/*
-        {
-          icon: 'mdi-lightbulb-on',
-          title: 'Past simple quiz',
-          to: '/quiz/1',
-        },
-        {
-          icon: 'mdi-lightbulb-on-outline',
-          title: 'Past participle quiz',
-          to: '/quiz/2',
-        },*/
+        }
       ],
       title: 'Vuetify.js',
     }
