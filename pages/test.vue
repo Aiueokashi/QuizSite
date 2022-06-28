@@ -76,7 +76,7 @@ export default {
           body: true,
           defer: true,
           hid: 'benzene',
-          id: 'benzene'
+          id: 'benzene',
           callback: () => {
             console.log('example js loaded');
           },
