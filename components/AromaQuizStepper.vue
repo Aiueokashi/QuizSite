@@ -41,15 +41,9 @@
           <h2>
             {{ currentIndex + 1 }}/{{ numberOfQuestions }} {{ quizName }} 次の化合物の名前を答えなさい:
           </h2>
-          <v-img :src="quizQuestions[currentIndex].img" 
-                :aspect-ratio="16/9" 
-                height="9vw" 
-                min-height="100px"
-                width="16vw" 
-                min-width="160px" 
-                class="ma-0 pa-0"
-                contain=true
-          ></v-img>
+      <script :id="quizQuestions[currentIndex].name" type="chemical/x-mdl-molfile" :src="'/chemData/2D/' + quizQuestions[currentIndex].name + '.mol'"></script>
+       <span id="viewer2D1" style="display:block" data-widget="Kekule.ChemWidget.Viewer2D"
+        :data-chem-obj="'url(#' + quizQuestions[currentIndex].name + ')'" data-predefined-setting="basic" data-auto-size="true"></span>
           <v-form @submit.prevent="nextQuestion">
             <v-text-field
               v-model="currentAnswer"
