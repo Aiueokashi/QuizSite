@@ -20,3 +20,8 @@ export default {
 
 }
 </script>
+<style>
+#peridicTable {
+  float: left;
+}
+</style>
