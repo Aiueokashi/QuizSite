@@ -47,5 +47,9 @@ export default {
       items: aromaticCompounds,
     }
   },
+  async asyncData(compound) {
+    const post = await this.$axios.$get(`http://ja.wikipedia.org/w/api.php?format=json&action=query&prop=revisions&titles=${compound}&rvprop=content`)
+    let SpiderID = post.split("Spider")
+   },
 }
 </script>
