@@ -2,7 +2,7 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="10" md="8" lg="6" xl="5">
       <h1>クイズは左のメニューから<h1>
-      <div id="composer" style="width:600px;height:400px" data-widget="Kekule.Editor.Composer"></div>
+      <div id="peridicTable" data-widget="Kekule.ChemWidget.PeriodicTable"></div>
     </v-col>
   </v-row>
 </template>
