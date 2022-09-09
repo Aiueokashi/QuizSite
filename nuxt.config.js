@@ -19,8 +19,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-           { rel: 'stylesheet', type: 'text/css', href: 'kekule/themes/default/kekule.css'},
-           { id: 'Benzene', type: 'chemical/x-mdl-molfile', href: 'chemData/benzene.mol'}],
+           { rel: 'stylesheet', type: 'text/css', href: 'kekule/themes/default/kekule.css'}],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -38,6 +37,10 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+  ],
+  
+  modules: [
+    '@nuxtjs/axios',  
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
